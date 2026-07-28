@@ -1,9 +1,14 @@
 body {
     min-height: 100vh;
-    background: linear-gradient(135deg, rgb(228, 227, 235), rgb(174, 174, 187));
+    background: linear-gradient(135deg, rgb(228, 227, 235), rgb(170, 170, 201));
 }
 
-header {
+h1 {
+    text-decoration: underline #000000 3px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+header, footer {
     background-color: black;
     height: 50px;
 }
@@ -21,6 +26,7 @@ header {
 #hange {
     width: 400px;
     border-radius: 16%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card_1, .card_2, .card_3 {
@@ -29,9 +35,9 @@ header {
    padding: 40px;
    vertical-align: middle;
    gap: 30px;
-   text-align: center;
    margin: 90px;
    border-radius: 4%;
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 #uruka {
