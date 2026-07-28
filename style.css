@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(228, 227, 235), rgb(174, 174, 187));
+}
+
+header {
+    background-color: black;
+    height: 50px;
+}
+
+    .parent_cards {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+}
+
+.card_0 {
+    text-align: center;
+}
+
+#hange {
+    width: 400px;
+    border-radius: 16%;
+}
+
+.card_1, .card_2, .card_3 {
+   display: inline-block;
+   border: 0.5px solid rgb(37, 27, 27);
+   padding: 40px;
+   vertical-align: middle;
+   gap: 30px;
+   text-align: center;
+   margin: 90px;
+   border-radius: 4%;
+}
+
+#uruka {
+    width: 400px;
+    height: 200px;
+    border-radius: 16%;
+}
